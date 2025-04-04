@@ -1905,3 +1905,23 @@ p {
   color: var(--white);
   background-color: var(--primary-dark);
 }
+
+#whatsapp-button {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#whatsapp-button img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#whatsapp-button:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
